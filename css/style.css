@@ -4,8 +4,9 @@
 }
 
 body {
-  background-image: url(./assets/background.jpg);
+  background-image: url(../assets/background.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
 }
 
@@ -26,7 +27,8 @@ body {
 }
 
 p,
-h1 {
+h1,
+span {
   text-align: center;
 }
 
@@ -59,4 +61,5 @@ button:hover {
   background-color: white;
   color: red;
   transform: scale(1.05);
+  cursor: pointer;
 }
